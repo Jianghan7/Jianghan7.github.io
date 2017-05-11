@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="只有具备对规则说话的实力，才有对着规则说话的机会，最后才有用规则说话的效果。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jianghan">
-<meta property="og:url" content="https://github.com/jianghan7/index.html">
+<meta name="description" content="记录一次比较坑的经历，关于ST的Package Control的问题，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sublime Text的坑">
+<meta property="og:url" content="https://github.com/jianghan7/2017/05/11/Sublime Text/index.html">
 <meta property="og:site_name" content="Jianghan">
-<meta property="og:description" content="只有具备对规则说话的实力，才有对着规则说话的机会，最后才有用规则说话的效果。">
+<meta property="og:description" content="记录一次比较坑的经历，关于ST的Package Control的问题，">
+<meta property="og:updated_time" content="2017-05-11T06:21:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Jianghan">
-<meta name="twitter:description" content="只有具备对规则说话的实力，才有对着规则说话的机会，最后才有用规则说话的效果。">
+<meta name="twitter:title" content="Sublime Text的坑">
+<meta name="twitter:description" content="记录一次比较坑的经历，关于ST的Package Control的问题，">
 
 
 
@@ -113,10 +114,10 @@
 
 
 
-  <link rel="canonical" href="https://github.com/jianghan7/"/>
+  <link rel="canonical" href="https://github.com/jianghan7/2017/05/11/Sublime Text/"/>
 
 
-  <title> Jianghan </title>
+  <title> Sublime Text的坑 | Jianghan </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -137,9 +138,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -249,9 +248,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -271,10 +270,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/05/11/Sublime Text/" itemprop="url">
-                  Sublime Text的坑
-                </a>
+                Sublime Text的坑
               
             
           </h1>
@@ -333,22 +329,25 @@
       
 
       
-        
-          <p>记录一次比较坑的经历，关于ST的Package Control的问题，</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/05/11/Sublime Text/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+        <p>记录一次比较坑的经历，关于ST的Package Control的问题，</p>
+<a id="more"></a>
+<p>很多小伙伴明明按照网络上教程一步步的安装了Package Control，并且Installed Packages下边也有Package Control.sublime-package这个文件，但是还是在Preferences下边看不到Package Control，同样控制台里边也没办法使用Install Package下载安装插件。 同样这个问题伴随我很久，两年时间左右，从我使用ST就存在了，今天终于让我解决了。 问题的具体原因，无从考究，估计是版本升级遗留的问题。</p>
+<p>下载安装Package Control就不在赘述了，网上有很多。  下边说一下和我有同样问题的解决办法，<br>Preference&gt;Browse Package来到ST下的Packages目录，进入User目录，打开Preferences.sublime-settings文件，<br>有这个标签：<br>“ignored_packages”:<br>[<br>    “Package Control”,<br>    “Vintage”<br>],<br>把这一行去掉    “Package Control”, 其他不用修改，保存  重启。</p>
+
       
     </div>
 
     <div>
       
+        
+
+      
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -356,362 +355,32 @@
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/04/01/android精选/" rel="next" title="android精选">
+                <i class="fa fa-chevron-left"></i> android精选
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2017/04/01/android精选/" itemprop="url">
-                  android精选
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-01T16:57:24+08:00" content="2017-04-01">
-              2017-04-01
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Android！！！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/01/第一篇/" itemprop="url">
-                  第一篇
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-04-01T15:24:33+08:00" content="2017-04-01">
-              2017-04-01
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂/" itemprop="url" rel="index">
-                    <span itemprop="name">杂</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>愚人节快乐！！！</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/04/01/第一篇/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+    <div class="post-spread">
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/02/小伙伴/" itemprop="url">
-                  测试
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-02T09:19:29+08:00" content="2016-11-02">
-              2016-11-02
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/杂/" itemprop="url" rel="index">
-                    <span itemprop="name">杂</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h1 id="1标题标题"><a href="#1标题标题" class="headerlink" title="1标题标题"></a>1标题标题</h1><h2 id="2标题标题"><a href="#2标题标题" class="headerlink" title="2标题标题"></a>2标题标题</h2>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/11/02/小伙伴/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -719,6 +388,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -738,8 +411,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/user.jpg"
@@ -802,6 +484,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -898,6 +591,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
